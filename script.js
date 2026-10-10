@@ -69,7 +69,7 @@ function renderProducts(items) {
         <div class="price-row">
           <span class="price">${product.price}</span>
           <button class="cart-icon">
-            <img src="img/icon/vector.svg" alt="Кошик">
+            <img src="./img/icon/vector.svg" alt="Кошик">
           </button>
         </div>
         </div>
