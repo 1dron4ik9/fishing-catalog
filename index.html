@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог риболовних снастей</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <nav class="categories-nav">
+      <div class="categories-list">
+        <button class="cat-btn" data-f="rods">ВУДКИ</button>
+        <button class="cat-btn" data-f="line">ВОЛОСІНЬ</button>
+        <button class="cat-btn" data-f="baits">ПРИМАНКИ</button>
+        <button class="cat-btn" data-f="reels">КОТУШКИ</button>
+        <button class="cat-btn" data-f="gear">ОСНАЩЕННЯ</button>
+        <button class="cat-btn" data-f="feeders">ПРИКОРМКА</button>
+      </div>
+      <button class="scroll-arrow" aria-label="Прокрутити далі">
+        <img src="img/icon/arrow.svg" alt="Стрілка вправо">
+      </button>
+    </nav>
+
+    <main class="products-grid">
+    </main>
+  </div>
+  <div class="modal" id="productModal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="modalcard">
+        <img id="modalImg" src="" alt="">
+        <div class="modaltitle">
+          <h2 id="modalTitle"></h2>
+        <p id="modalPrice"></p>
+        </div>
+      </div>
+      <p class="modal-desc">Опис товару: високоякісна позиція для риболовлі, що забезпечує надійність та комфорт на
+        водоймі.</p>
+      <button class="modal-cart-btn">
+        <img src="img/icon/vector.svg" alt="Кошик">
+        Додати в кошик
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
