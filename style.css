@@ -195,7 +195,6 @@ padding: clamp(15px, 2vw, 27px) clamp(10px, 7.5vw, 95px);
 }
 
 .modal-content img {
-  width: 100%;
   max-height: 220px;
   object-fit: contain;
   margin-bottom: 15px;
